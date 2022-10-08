@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  /* border: solid 1px salmon; */
+}
+
+/* ========== my css ========== */
+body {
+  font-family: "DM Sans", "Courier New", Courier, monospace;
+  background-color: #fbf9fc;
+}
+
+header {
+  width: 750px;
+  margin: 50px auto;
+  padding: 21px 25px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s;
+}
+header:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-20px);
+}
+header img {
+  float: left;
+  margin-right: 16px;
+  height: 75px;
+  border-radius: 999px;
+  box-shadow: 0 0 0 6px white, 0 0 0 8px rgb(224, 223, 223);
+}
+.info {
+  transform: translateY(-3px);
+  height: 83px;
+}
+.info h1 {
+  font-size: 1.8rem;
+  color: #464545;
+}
+.info p {
+  color: #757575;
+}
+main a {
+  margin: 0 auto 20px;
+  width: 800px;
+  padding: 21px 0;
+  display: block;
+  text-align: center;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  color: #464545;
+  text-decoration: none;
+}
+
+footer {
+  margin: 50px 0;
+  text-align: center;
+}
+footer button {
+  border-radius: 12px;
+  background-color: white;
+  border: none;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  padding: 21px 90px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button {
+  transition: all 0.3s;
+}
+.button:hover {
+  transform: scale(1.08);
+}
+button.button:hover {
+  transform: scale(1.2);
+}
+button.button:active {
+  transform: scale(0.95);
+}
+.button:active {
+  transform: scale(0.95);
+}
